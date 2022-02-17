@@ -7,8 +7,9 @@ Creating Secure Folder Which Opens &amp; Closes With Password!
   <li>Run The .bat File , It Will Give You A Locker Folder, Place Your Files In Folder</li>
   <li>Then Run The .bat File Again! It Will Hide Your Folder And locks It With Your Given Password(To Change Password See Below Section)</li>
   </ol>
+
 ## How Make Folder And To Change Password?
-<ol>
+
   <li>Go And Edit .Txt File And Find This</li>
 ```
 set/p "pass=>"    
@@ -18,7 +19,7 @@ if NOT %pass%==123456 goto FAIL <-----Change Your Password!
 ```
 <li>Then Change The File Extension(Rename) From .txt to .bat </li>
 <li>And Your Secure Folder Is Ready!</li>
-</ol>
+
 ## Advantage Vs Disadvantage
 
 **Advantage**
