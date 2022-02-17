@@ -10,15 +10,17 @@ Creating Secure Folder Which Opens &amp; Closes With Password!
 
 ## How Make Folder And To Change Password?
 
-  <li>Go And Edit .Txt File And Find This</li>
+1. Go And Edit .Txt File And Find This
+
 ```
 set/p "pass=>"    
 
 if NOT %pass%==123456 goto FAIL <-----Change Your Password!
 
 ```
-<li>Then Change The File Extension(Rename) From .txt to .bat </li>
-<li>And Your Secure Folder Is Ready!</li>
+
+2. Then Change The File Extension(Rename) From .txt to .bat, Then Save It! 
+3. And Your Secure Folder Is Ready With Your Own Password !
 
 ## Advantage Vs Disadvantage
 
