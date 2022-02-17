@@ -1,2 +1,29 @@
 # Secure-Folder
 Creating Secure Folder Which Opens &amp; Closes With Password!
+
+## How To Use : 
+<ol>
+  <li>Change The File Extension From .txt to .bat Or Direct Download The .bat File(This .Bat File Already Contain Password -123456)</li>
+  <li>Run The .bat File , It Will Give You A Locker Folder, Place Your Files In Folder</li>
+  <li>Then Run The .bat File Again! It Will Hide Your Folder And locks It With Your Given Password(To Change Password See Below Section)</li>
+  </ol>
+## How Make Folder And To Change Password?
+<ol>
+  <li>Go And Edit .Txt File And Find This</li>
+```
+set/p "pass=>"    
+
+if NOT %pass%==123456 goto FAIL <-----Change Your Password!
+
+```
+<li>Then Change The File Extension(Rename) From .txt to .bat </li>
+<li>And Your Secure Folder Is Ready!</li>
+</ol>
+## Advantage Vs Disadvantage
+
+**Advantage**
+<b>Secure Folder Creates A Secure Folder Vault Where User Can Store Any Important File & Information.</br>
+
+**Disadvantage**
+<b>This Program Hide And lock The Folder That Cannot Be Found By Using The Normal "Show Hidden File Option"</b>
+<b>Disadvantage : If The .bat File is Visible Or Kept Open, Third Person Will Be Able To See The Password If He Want To, So Better To Change The Password Or Hide It or Keep It In Another Folder After Using It.</b>
