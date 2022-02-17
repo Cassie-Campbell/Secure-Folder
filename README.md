@@ -16,7 +16,6 @@ Creating Secure Folder Which Opens &amp; Closes With Password!
 set/p "pass=>"    
 
 if NOT %pass%==123456 goto FAIL <-----Change Your Password!
-
 ```
 
 2. Then Change The File Extension(Rename) From .txt to .bat, Then Save It! 
