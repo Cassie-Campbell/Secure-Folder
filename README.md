@@ -6,11 +6,12 @@ Creating Secure Folder Which Opens &amp; Closes With Password!
   <li>Change The File Extension From .txt to .bat Or Direct Download The .bat File(This .Bat File Already Contain Password -123456)</li>
   <li>Run The .bat File , It Will Give You A Locker Folder, Place Your Files In Folder</li>
   <li>Then Run The .bat File Again! It Will Hide Your Folder And locks It With Your Given Password(To Change Password See Below Section)</li>
+  <li>Get .txt File IN Src Folder Of This Repository!</li>
   </ol>
 
 ## How Make Folder And To Change Password?
 
-1. Go And Edit .Txt File And Find This
+1. Go And Edit .Txt File And Find This!
 
 ```
 set/p "pass=>"    
